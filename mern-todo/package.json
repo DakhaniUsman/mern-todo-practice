@@ -1,0 +1,27 @@
+{
+  "name": "mern-todo",
+  "version": "1.0.0",
+  "description": "mern todo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DakhaniUsman/mern-todo-practice.git"
+  },
+  "author": "Dakhani Usman",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/DakhaniUsman/mern-todo-practice/issues"
+  },
+  "homepage": "https://github.com/DakhaniUsman/mern-todo-practice#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.0",
+    "nodemon": "^3.1.10"
+  }
+}
